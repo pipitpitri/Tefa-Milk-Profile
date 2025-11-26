@@ -1,0 +1,41 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    background: url('img/header-bg.png') no-repeat center/cover;
+    padding: 180px 0 150px;
+    color: #000;
+}
+
+.hero-title {
+    font-size: 2.2rem;
+}
+
+.filter-btn {
+    border: 1px solid #d9534f;
+    padding: 6px 18px;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background: #d9534f;
+    color: #fff;
+}
+
+.product-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.footer {
+    background: #faf3d6;
+}
+
+.footer ul li {
+    margin-bottom: 6px;
+}
+
+.copyright {
+    background: #e8ddbe;
+}
